@@ -56,7 +56,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo "mvn spring-boot:run -f bolsa-laboral/pom.xml"
+        sh "mvn spring-boot:run -f bolsa-laboral/pom.xml"
             }
         }
     }
