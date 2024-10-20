@@ -26,12 +26,12 @@
 		<tag/>
 		<url/>
 	</scm>
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <sonar.token>squ_fcb7b3861bcda747f0ef85a5763f952f975718e7</sonar.token>
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <sonar.host.url>http://localhost:9000</sonar.host.url> <!-- Si es necesario -->
+</properties>
 
-    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
