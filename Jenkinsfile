@@ -10,7 +10,7 @@ pipeline {
         stage('Clone') {
             steps {
                 timeout(time: 2, unit: 'MINUTES'){
-                    git branch: 'main', credentialsId: 'gitububtoken', url: 'https://github.com/dmamanipar/SysEventos2.git'
+                    git branch: 'main', credentialsId: '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 ', url: 'https://github.com/GaryFernandoYM/Bolsa_upeu_Springboot.git'
                 }
             }
         }
