@@ -18,7 +18,10 @@ public class OfertaLaboral {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+/**
+ * Custom exception to handle resources not found scenarios.
+ * This exception will result in a 404 Not Found HTTP response status.
+ */
     @NotNull
     @Size(max = 100)
     @Column(name = "titulo", nullable = false, length = 100)
