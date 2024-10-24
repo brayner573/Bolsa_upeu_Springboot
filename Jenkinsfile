@@ -10,7 +10,7 @@ pipeline {
         stage('Clone') {
             steps {
                 timeout(time: 2, unit: 'MINUTES'){
-                    git branch: 'main', credentialsId: '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', url: 'https://github.com/GaryFernandoYM/Bolsa_upeu_Springboot.git'
+                    git branch: 'main', credentialsId: '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', url: 'https://github.com/GaryFernandoYM/Bolsa_upeu_Springboot.git'
                 }
             }
         }
